@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Emoji Mood Tracker MVP</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>Mood & Music MVP</h1>
+
+    <div class="input-section">
+        <label for="emojiInput">Enter your mood emoji:</label>
+        <input type="text" id="emojiInput" maxlength="1" placeholder="e.g. 😊">
+        <button id="recommendBtn">Get Songs & Log Mood</button>
+    </div>
+
+    <div class="output-section">
+        <h2>Recommended Tracks</h2>
+        <ul id="recommendationList">
+            </ul>
+    </div>
+
+    <div class="mood-log-section">
+        <h2>Latest Logged Moods</h2>
+        <p id="moodLogStatus">Click the button to log your first mood!</p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
