@@ -1,0 +1,72 @@
+body{
+    margin: 0;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    display: flex;
+    gap: 20px;
+}
+h1, h2, h3{
+    margin: 10px 0;
+}
+.container{
+    flex: 1;
+}
+.input-box{
+    margin: 20px 0;
+    padding: 15px;
+    border: 1px solid #ccc;
+    background: #f9f9f9;
+}
+input[type="text"]{
+    padding: 5px;
+    margin: 0 10px;
+    border: 1px solid #ccc;
+}
+button{
+    padding: 5px 15px;
+    background: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+button:hover{
+    background: #45a049;
+}
+.results{
+    margin: 20px 0;
+    padding: 15px;
+    border: 1px solid #ccc;
+    background: #f9f9f9;
+}
+ul{
+    list-style: none;
+    padding: 0;
+}
+li{
+    padding: 10px 0;
+    border-bottom: 1px solid #eee;
+}
+audio{
+    width: 100%;
+    margin-top: 5px;
+}
+.history{
+    flex: 1;
+    padding: 20px;
+    border-left: 1px solid #ccc;
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+th{
+    background: #4CAF50;
+    color: white;
+    padding: 10px;
+    text-align: left;
+}
+td{
+    padding: 8px;
+    border-bottom: 1px solid #ddd;
+}
